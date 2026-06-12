@@ -1,0 +1,25 @@
+# Core scientific stack
+numpy>=1.23,<2.0
+pandas>=1.5
+scipy>=1.9
+statsmodels>=0.13
+
+# Machine learning
+scikit-learn>=1.2
+xgboost>=1.7
+lightgbm>=3.3
+catboost>=1.2
+
+# Deep learning (required only for the CNN models; runs can be invoked
+# with --no-cnn to skip this dependency)
+tensorflow>=2.11,<2.16
+
+# Interpretability
+shap>=0.41
+
+# Reading the GDSC .xlsx response file
+openpyxl>=3.0
+
+# Visualisation
+matplotlib>=3.6
+seaborn>=0.12
